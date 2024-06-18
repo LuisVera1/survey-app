@@ -1,0 +1,27 @@
+
+.characteristics {
+  background-color: #fff;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.characteristics--card {
+  border: 1px solid #555;
+  border-radius: 8px;
+  background-color: #f3f3f3;
+  width: 400px;
+  padding: 15px;
+  text-align: center;
+  margin: 10px;
+}
+
+.characteristics--title {
+  margin-bottom: 15px;
+}
+
+.characteristics--image {
+  width: 200px;
+  height: 200px;
+}

@@ -1,10 +1,11 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
+import { LandingPage } from './pages/LandinPage';
 
 function App() {
 	return (
 		<Routes>
-			<Route path="/" element={<p>Home (landing)</p>} />
+			<Route path="/" element={<LandingPage />} />
 
 			<Route path="/new" element={<p>Create new survey</p>} />
 

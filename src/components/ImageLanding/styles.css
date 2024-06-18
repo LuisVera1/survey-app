@@ -1,0 +1,51 @@
+.main-section {
+	background-color: #62b6d2;
+}
+
+.main-section--text {
+	/* height: 140px; */
+	width: 50%;
+	margin-bottom: 6px;
+}
+
+.main-section--header {
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 40px;
+}
+
+.main-section--button {
+	margin-top:  70px;
+}
+
+.main-section--image {
+	width: 50%;
+}
+
+.main-section--image--width {
+	width: 100%;
+}
+
+
+/* media queries */
+@media screen and (max-width: 1275px)  {
+
+	.main-section--header {
+		font-size: 35px;
+	}
+
+}
+
+@media screen and (max-width: 540px)  {
+
+	.main-section {
+		background-color: blue;
+		flex-direction: column;
+	}
+
+}
+
+
+
+
+
